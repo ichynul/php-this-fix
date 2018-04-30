@@ -1,4 +1,4 @@
-# php-lint-this---field README
+# php-lint-this-field README
 
 This is the README for your extension "php-lint-this---field". After writing up a brief description, we recommend including the following sections.
 

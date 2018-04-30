@@ -5,22 +5,22 @@
     "version": "0.0.1",
     "publisher": "ichynul",
     "engines": {
-        "vscode": "^1.22.0"
+        "vscode": "^1.18.0"
     },
     "categories": [
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.ichynul.check",
+        "onLanguage:php",
+        "workspaceContains:**/*.php"
     ],
     "main": "./extension",
     "contributes": {
-        "commands": [
-            {
-                "command": "extension.sayHello",
-                "title": "Hello World"
-            }
-        ]
+        "commands": [{
+            "command": "extension.ichynul.check",
+            "title": "check"
+        }]
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
