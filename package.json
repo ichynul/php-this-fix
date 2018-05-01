@@ -2,7 +2,7 @@
     "name": "php-lint-this-field",
     "displayName": "php-lint$this->$field",
     "description": "Lint for php code ,show warning when you write '$this->$'",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "ichynul",
     "engines": {
         "vscode": "^1.18.0"
