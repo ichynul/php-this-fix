@@ -1,10 +1,10 @@
 class WordCounter {
-    constructor(_vscode) { //构造函数，传入vscode对象
+    constructor(_vscode) {
         this.vscode = _vscode;
         this.init();
     }
 
-    init() { //初始化
+    init() {
         var vscode = this.vscode;
         var StatusBarAlignment = vscode.StatusBarAlignment;
         var window = this.vscode.window;
