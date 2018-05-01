@@ -2,7 +2,7 @@
     "name": "php-lint-this-field",
     "displayName": "php-lint$this->$field",
     "description": "Lint for php code ,show warning when you write '$this->$'",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "ichynul",
     "engines": {
         "vscode": "^1.18.0"
@@ -22,9 +22,9 @@
     "contributes": {
         "configuration": {
             "type": "object",
-            "title": "php_this",
+            "title": "phpfixthis",
             "properties": {
-                "php_this.warnningLevel": {
+                "phpfixthis.warnningLevel": {
                     "type": "number",
                     "default": 0,
                     "description": "warnning level(0:Error|1:Warning|2:Information|3:Hint), default is 0."

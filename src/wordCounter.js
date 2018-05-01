@@ -32,7 +32,7 @@ class WordCounter {
             let index = line.indexOf('$this->$');
             if (index >= 0) {
                 diagnostics.push({
-                    severity: this.vscode.workspace.getConfiguration('warnningLevel'),
+                    severity: parseInt(this.vscode.workspace.getConfiguration('phpfixthis').get('warnningLevel')),
                     range: {
                         start: {
                             line: i,
